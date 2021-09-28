@@ -3,9 +3,9 @@ import './Stat.css'
 
 function Stat(props) {
     return (
-        <div className="Stat" >
-            <p className="statNumber"></p>
-            <p className="statTitle"></p>
+        <div statnumber={props.statnumber} stattitle={props.stattitle} className="Stat" >
+            <p className="statNumber">{props.statnumber}</p>
+            <p className="statTitle">{props.stattitle}</p>
         </div>
     )
 }

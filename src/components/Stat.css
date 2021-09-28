@@ -3,3 +3,13 @@
     flex-direction: column; 
     justify-content: center; 
 }
+.statNumber {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    font-size: 24px; 
+}
+.statTitle {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400; 
+    font-size: 12px; 
+}

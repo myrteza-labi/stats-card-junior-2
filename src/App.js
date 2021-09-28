@@ -1,9 +1,9 @@
 import './App.css';
-
+import StatsCard from './components/StatsCard'; 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <StatsCard/>
     </div>
   );
 }
