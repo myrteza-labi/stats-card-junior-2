@@ -9,12 +9,15 @@ function StatsCard(props) {
     return (
         <div className="StatsCard" >
             <Illustration/>
-            <TextPresentation/>
-            <StatsBox>
-                <Stat statnumber={'0'} stattitle={'0'}/>
-                <Stat statnumber={'0'} stattitle={'0'}/>
-                <Stat statnumber={'0'} stattitle={'0'}/>
-            </StatsBox>
+            <div className="mainContainer">
+                <TextPresentation/>
+                <StatsBox>
+                    <Stat statnumber={'0'} stattitle={'0'}/>
+                    <Stat statnumber={'0'} stattitle={'0'}/>
+                    <Stat statnumber={'0'} stattitle={'0'}/>
+                </StatsBox>
+            </div>
+            
         </div>
     )
 }
